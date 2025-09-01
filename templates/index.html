@@ -4,15 +4,57 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <style>
+        h6 {
+            front-size: 15px
+        }
+
         .h2-text {
             color: red
+        }
+
+        .h6-text {
+            color: yellow
+        }
+
+        #h1-text {
+            front-size: 50px
+        }
+
+        div.Learn_to_Code > a {
+                              color: red
+        }
+
+        ul li {
+              color: purple
+        }
+
+        input[type="text"] {
+                           background-color: blue
+        }
+
+         input[type="text"]:hover {
+                           background-color: yellow
+        }
+
+        a:hover {
+                color: red
+        }
+
+        li::marker {
+            color: red
+        }
+
+        ul > li:nth-child(2) {
+            color: green
         }
     </style>
 </head>
 <body>
-<div>
+<div class="Ссылка Learn to Code">
     <h1 id="h1-text">H1</h1>
+    <h1>H1 text 2</h1>
     <h2 class="h2-text">H2</h2>
+    <h6 class="h2-text h6-text">H6</h6>
     <p>Это текст. <span style="color: red">Тут он красный</span>. <span style="color: green">Тут он зелёный</span>.</p>
     <a href="https://www.w3schools.com/" target="_blank">Ссылка Learn to Code</a>
     <img alt="browsers.png" src="https://ir.ozone.ru/s3/multimedia-1-9/wc1000/7618238613.jpg" style="width: 300px">
@@ -49,6 +91,17 @@
         </tr>
         </tbody>
     </table>
+</div>
+<div class="nth">
+    <p>1</p>
+    <p>2</p>
+    <h6>3</h6>
+    <h5>4</h5>
+    <p>5</p>
+</div>
+<div class="Learn_to_Code">
+    <h2 class="h2-text">H2</h2>
+    <a href="https://www.w3schools.com/" target="_blank">Learn_to_Code</a>
 </div>
 </body>
 </html>
